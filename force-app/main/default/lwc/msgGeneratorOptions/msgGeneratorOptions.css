@@ -1,0 +1,91 @@
+lightning-card {
+    background-color: black;
+  }
+  
+  .container {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #6c6c6c;
+    background-color: white;
+  }
+  
+  .container header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3px;
+  }
+  
+  .container header h1 {
+    font-size: 1.2em;
+  }
+  
+  .sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: 7px;
+  }
+  
+  .sub-containerFormat {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+  }
+  
+  .Format-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .format-Btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 92%);
+  }
+  
+  .format-Btn:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .normal-btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 92%);
+    padding: 5px 10px;
+  }
+  
+  .normal-btn:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .selected {
+    background-color: #00a1e0;
+    border: none;
+    color: white;
+  }
+  .selected:hover {
+    background-color: #0093cd;
+  }
+  
+  .selectedFormat {
+    border: #00a1e0 2px solid;
+  }

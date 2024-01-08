@@ -1,0 +1,1 @@
+SendEmailMessage.sendEmail('ismailkaou12@gmail.com', 'Hello', 'Email', '');

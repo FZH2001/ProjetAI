@@ -1,0 +1,46 @@
+.container{
+    width: 30rem;
+    background-color: #fff;
+}
+.card{
+    border: 1px solid rgb(66, 156, 215);
+    border-radius: 5px;
+}
+.with_padding{
+    padding: 0.5rem;
+
+}
+.card-label{
+    background-color: rgb(242, 242, 242);
+    width: full;
+    padding: 0;
+    
+}
+
+
+
+
+
+.card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #eee;
+    color:  rgb(43, 112, 203);
+    padding:8px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.multiSelect {
+    height: 10rem;
+}
+
+.THIS.multiSelect .slds-form-element__control {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+}

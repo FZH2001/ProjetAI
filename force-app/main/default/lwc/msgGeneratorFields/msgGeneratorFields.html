@@ -1,0 +1,38 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class="container slds-grid slds-grid_align-space ">
+        <div class="slds-theme_default card slds-m-around--x-small">
+            <div class="card-header">            
+                <label>Choose lead fields</label>
+            </div>
+            <div class="card-content slds-scrollable wrapTopics multiSelect" >
+            <lightning-checkbox-group 
+                class="slds-p-around_x-small custom-checkbox-group"
+                name="Checkbox field values in message"
+                label="Choose lead fields"
+                options={fields}
+                value={selectedFields}
+                onchange={handleCheck}
+                variant="label-hidden">
+            </lightning-checkbox-group>
+        </div>
+     
+</div>
+<div class="slds-theme_default card slds-m-around--x-small">
+    <div class="card-header">
+       Fields values
+    </div>
+    <div class="card-content slds-p-around_x-small slds-scrollable wrapTopics multiSelect">
+
+                <template for:each={fieldValues} for:item="field">
+                    <p key={field.key}>
+                        <span style="color:rgb(43, 112, 203) ;">{field.key} :</span> {field.value}
+                    </p>
+                </template>
+                </div>
+            </div>
+        </div>
+
+  
+
+</template>

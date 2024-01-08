@@ -1,0 +1,27 @@
+:host {
+    --sds-c-textarea-sizing-min-height: 200px;
+    --slds-c-textarea-color-background:rgb(242 242 242);
+    --slds-c-textarea-color-background-focus:rgb(242 242 242);
+ }
+ .c-container {
+     background-color: #FFFFFF;
+     border: 1px solid #d8dde6;
+     
+ }
+ .textarea-container {
+     position: relative;
+ }
+ 
+ .slds-textarea {
+    background-color: rgb(242 242 242);
+    border-radius: 10px;
+ }
+ 
+ .custom-button {
+     position: absolute;
+     bottom: 15px; /* Adjust the distance from the bottom as needed */
+     right: 15px; /* Adjust the distance from the right as needed */
+ }
+ .send-btn{
+    margin: auto;
+ }
